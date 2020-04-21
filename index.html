@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>博客首页</title>
+  <!-- reset -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="./fonts/style.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <div>
+      <!-- header -->
+      <header>
+        <nav>
+          <div class="logo"><a href="#">个人作品</a></div>
+          <ul>
+            <li><a href="index.html" class="active">首页</a></li>
+            <!-- <li><a href="#">分类1</a></li>
+            <li><a href="#">分类2</a></li> -->
+            <li><a href="https://blog.csdn.net/weixin_45748460">csdn博客</a></li>
+            <li id="sidebar_trigger"><a href="#">MENU<i class="fa fa-align-justify"></i></a></li>
+          </ul>
+        </nav>
+        <div id="banner">
+          <div class="inner">
+            <h1>我的网页</h1>
+            <p class="sub-heading">
+              不忘初心，方得始终
+            </p>
+            <button><a href="https://blog.csdn.net/weixin_45748460">进入我的csdn博客</a></button>
+            <div class="more">
+              <p>更多</p>
+              <i class="icon-arrow-down2"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- content -->
+      <div class="content">
+        <section class="green-section">
+          <div class="wrapper">
+            <div>
+              <h2>个人信息</h2>
+              <div class="hr"></div>
+              <div class="sub-heading">
+                <div class="msg">
+                  1.了解前后端开发模式，熟悉前端开发中的html、css、js，了解bootstrape、jquery的基本使用<br />
+                  2.了解前端框架vue，了解后台语言node.js，php<br />
+                  3.了解数据库，能够进行简单地sql操作，了解简单的git操作<br />
+                  4.了解http协议、tcp/ip协议等计算机网络基础知识。
+                  </p>
+                </div>
+              </div>
+              <div class="icon-group">
+                <span class="icon"><span class="icon-big icon-phone"></span></span>
+                <span class="icon"><span class="icon-big icon-trophy"></span></span>
+                <span class="icon"><span class="icon-big icon-images"></span></span>
+              </div>
+            </div>
+        </section>
+        <section class="gray-section">
+          <div class="article-preview">
+            <div class="img-section">
+              <img src="img/pic.jpg">
+            </div>
+            <div class="text-section">
+              <h2>微信小程序（个人作品）</h2>
+              <div class="sub-heading">项目源码：https://github.com/1686583652/git-person-program</div>
+              <p>
+                项目描述：这是一个基于微信开发者工具制作的小程序，该小程序包括了两个部分，一个新闻列表模块，一个电影列表模块，电影列表模块的数据是通过豆瓣接口进行加载，在开发过程中使用了小程序的组件化开发思想，flex布局，接口数据的整合与展示
+              </p>
+            </div>
+          </div>
+          <!-- <div class="article-preview">
+            <div class="text-section">
+              <h2>有一个标题</h2>
+              <div class="sub-heading">我是副标题</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            </div>
+            <div class="img-section">
+              <img src="img/pic02.jpg">
+            </div>
+          </div> -->
+          <div class="article-preview">
+            <div class="text-section">
+              <h2>基于vue创建的商城项目</h2>
+              <div class="sub-heading">web端购物商城网站</div>
+              <p>
+                1.页面结构(H5,CSS3,原生JS)<br>
+                2.框架(基于Vue脚手架:vue-cli)进行搭建<br>
+                3.数据请求处理框架(Axios)<br>
+                4.Vue-Router进行路由处理<br>
+                5.使用json-server模拟REST API
+              </p>
+            </div>
+            <div class="img-section">
+              <img src="img/pic03.jpg">
+            </div>
+
+          </div>
+        </section>
+        <!-- <section class="purple-section">
+          <div class="wrapper">
+            <div class="heading-wrapper">
+              <h2>有一个标题</h2>
+              <div class="hr"></div>
+              <div class="sub-heading">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eveniet, non aperiam, ratione aliquid
+                quo ipsum, iure excepturi blanditiis temporibus recusandae laborum ipsam tempora rem minima. Ut rerum,
+                saepe soluta.
+              </div>
+            </div>
+            <div class="card-group clearfix">
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+              <div class="card">
+                <h3>标题</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis illum rerum, aperiam nulla
+                  assumenda eveniet! Voluptatem ullam consequatur perspiciatis, assumenda. Voluptates quisquam illum
+                  voluptas, reprehenderit obcaecati iure enim id.</p>
+              </div>
+            </div>
+          </div>
+        </section> -->
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="sponsor">
+          <div class="sponsor-left">
+            <h3>联系我</h3>
+            <p>
+              <i class="icon-phone"></i>
+              <span class="phone">13536917060</span>
+            </p>
+            <p>
+              <i class="icon-mail"></i>
+              <span class="phone">xiaohuixu@126.com</span>
+            </p>
+          </div>
+        </div>
+        <div class="share">
+          <ul class="share-group">
+            <li><i class="fa fa-facebook-square"></i></li>
+            <li><i class="fa fa-github"></i></li>
+            <li><i class="fa fa-qq"></i></li>
+            <li><i class="fa fa-weixin"></i></li>
+            <li><i class="fa fa-weibo"></i></li>
+          </ul>
+          <div class="copy">
+            &copy xiaohuixu-2020
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- 侧栏,独立存在的 -->
+  <div class="mask"></div>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#">连接1</a></li>
+      <li><a href="#">连接1</a></li>
+      <li><a href="#">连接1</a></li>
+      <li><a href="#">连接1</a></li>
+      <li><a href="#">连接1</a></li>
+    </ul>
+  </div>
+  <button class="back-to-top">返回顶部</button>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

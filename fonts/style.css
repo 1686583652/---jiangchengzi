@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ylzj7');
+  src:  url('fonts/icomoon.eot?ylzj7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ylzj7') format('truetype'),
+    url('fonts/icomoon.woff?ylzj7') format('woff'),
+    url('fonts/icomoon.svg?ylzj7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-file-text2:before {
+  content: "\e926";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
